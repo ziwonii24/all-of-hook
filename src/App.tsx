@@ -1,8 +1,10 @@
 import React from "react";
-import UseMemo from "./components/useMemo";
+import UseMemo from "./useMemo";
+import UseCallback from "./useCallback";
 
 function App() {
-  return <UseMemo />;
+  // return <UseMemo />;
+  return <UseCallback />;
 }
 
 export default App;
